@@ -52,9 +52,9 @@
       },
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZDIwMjUiLz48Y2lyY2xlIGN4PSIyNyIgY3k9IjMwIiByPSIxMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNGM4ZGZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTQgMzBoMjZNMjcgMTdjNiA3IDYgMTkgMCAyNk0yNyAxN2MtNiA3LTYgMTkgMCAyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNGM4ZGZmIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIzOCIgeT0iMzQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjMiIGZpbGw9IiMzZmI5NTAiLz48cGF0aCBkPSJNNDIgMzR2LTRhNSA1IDAgMCAxIDEwIDB2NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2ZiOTUwIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
       "author": "dsh-lan-webui contributors",
-      "homepage": "https://github.com/OWNER/dsh-lan-webui#readme",
+      "homepage": "https://github.com/reee/dsh-lan-webui#readme",
       "repository": {
-        "url": "https://github.com/OWNER/dsh-lan-webui"
+        "url": "https://github.com/reee/dsh-lan-webui"
       },
       "metadata": {
         "category": "access",
@@ -75,9 +75,11 @@
       "versions": [
         {
           "version": "1.1.1",
-          "publishTimestamp": 1794198875,
+          "publishTimestamp": 1794199621,
           "source": {
-            "type": "npm"
+            "type": "git",
+            "url": "https://github.com/reee/dsh-lan-webui",
+            "commit": "b25d7112332a5138bb352ce4a5a074e0ffb55546"
           }
         }
       ]
