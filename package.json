@@ -37,13 +37,13 @@
     "authentication",
     "web-ui"
   ],
-  "homepage": "https://github.com/OWNER/dsh-lan-webui#readme",
+  "homepage": "https://github.com/reee/dsh-lan-webui#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/dsh-lan-webui.git"
+    "url": "git+https://github.com/reee/dsh-lan-webui.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/dsh-lan-webui/issues"
+    "url": "https://github.com/reee/dsh-lan-webui/issues"
   },
   "author": "dsh-lan-webui contributors",
   "license": "MIT",

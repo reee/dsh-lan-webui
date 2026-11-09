@@ -35,10 +35,10 @@
 
 | 输入 | 说明 |
 |---|---|
-| `github:<owner>/<repo>#v1.1.1` | 安装指定 tag（推荐，可复现）；目标机器需有 Git |
-| `github:<owner>/<repo>` | 安装默认分支最新提交 |
-| `https://github.com/<owner>/<repo>` | 同上（也接受 `.git` 后缀与 `#tag`） |
-| `https://github.com/<owner>/<repo>/releases/download/v1.1.1/dsh-lan-webui-1.1.1.tgz` | GitHub Release 附件；**不需要 Git** |
+| `github:reee/dsh-lan-webui#v1.1.1` | 安装指定 tag（推荐，可复现）；目标机器需有 Git |
+| `github:reee/dsh-lan-webui` | 安装默认分支最新提交 |
+| `https://github.com/reee/dsh-lan-webui` | 同上（也接受 `.git` 后缀与 `#tag`） |
+| `https://github.com/reee/dsh-lan-webui/releases/download/v1.1.1/dsh-lan-webui-1.1.1.tgz` | GitHub Release 附件；**不需要 Git** |
 | 本地 `...\dsh-lan-webui-1.1.1.tgz` 绝对路径 | 离线分发；不需要 Git |
 
 > 目标机器没有 Git 时，用 Release 的 `.tgz` 附件（或本地路径）安装即可；两种方式装出的是
