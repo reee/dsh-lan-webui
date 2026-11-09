@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH community plugins",
+    "zh": "DSH 社区插件"
+  },
+  "description": {
+    "en": "Community bundles for DeepSeek Harness. Add this URL in Plugins → Discover.",
+    "zh": "DeepSeek Harness 社区插件索引。在 插件 → 发现 中添加此 URL。"
+  },
+  "metadata": {
+    "categories": {
+      "access": {
+        "title": {
+          "en": "Access & networking",
+          "zh": "访问与网络"
+        }
+      }
+    },
+    "labels": {
+      "security": {
+        "title": {
+          "en": "Security",
+          "zh": "安全"
+        }
+      },
+      "windows": {
+        "title": {
+          "en": "Windows",
+          "zh": "Windows"
+        }
+      },
+      "tailscale": {
+        "title": {
+          "en": "Tailscale",
+          "zh": "Tailscale"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "dsh-lan-webui",
+      "title": {
+        "en": "LAN Web UI",
+        "zh": "局域网 Web UI"
+      },
+      "description": {
+        "en": "Serve the DSH desktop Web UI on one LAN address behind password + IP-allowlist authentication, with an in-app settings page. Never binds 0.0.0.0.",
+        "zh": "在选定的局域网地址上提供桌面 Web UI，自带密码 + IP 白名单认证与应用内设置页；绝不绑定 0.0.0.0。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxZDIwMjUiLz48Y2lyY2xlIGN4PSIyNyIgY3k9IjMwIiByPSIxMyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNGM4ZGZmIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBkPSJNMTQgMzBoMjZNMjcgMTdjNiA3IDYgMTkgMCAyNk0yNyAxN2MtNiA3LTYgMTkgMCAyNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNGM4ZGZmIiBzdHJva2Utd2lkdGg9IjIiLz48cmVjdCB4PSIzOCIgeT0iMzQiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNCIgcng9IjMiIGZpbGw9IiMzZmI5NTAiLz48cGF0aCBkPSJNNDIgMzR2LTRhNSA1IDAgMCAxIDEwIDB2NCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjM2ZiOTUwIiBzdHJva2Utd2lkdGg9IjMiLz48L3N2Zz4=",
+      "author": "dsh-lan-webui contributors",
+      "homepage": "https://github.com/OWNER/dsh-lan-webui#readme",
+      "repository": {
+        "url": "https://github.com/OWNER/dsh-lan-webui"
+      },
+      "metadata": {
+        "category": "access",
+        "keywords": [
+          "lan",
+          "tailscale",
+          "authentication",
+          "settings",
+          "web-ui"
+        ],
+        "labels": [
+          "security",
+          "windows",
+          "tailscale"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "1.1.1",
+          "publishTimestamp": 1794198875,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}

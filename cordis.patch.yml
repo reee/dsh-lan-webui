@@ -1,0 +1,7 @@
+# Bundle patch: inserted when this bundle is installed and enabled.
+# The entry carries no machine-specific config; the plugin reads
+# $DSH_HOME/lan-access.json (written by `setup.js` or the in-app settings page)
+# and lets an explicit entry config in the profile's own patch layer override it.
+- insert:
+    - id: lan-access
+      name: dsh-lan-webui

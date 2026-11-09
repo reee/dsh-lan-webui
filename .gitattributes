@@ -1,0 +1,4 @@
+# Keep shell/PowerShell/YAML/JS text line endings stable across platforms.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.tgz binary

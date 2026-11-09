@@ -1,0 +1,21 @@
+# Node
+node_modules/
+npm-debug.log*
+*.tgz
+
+# Local machine config / secrets — never commit these
+lan-access.json
+.lan-access-secret
+.lan-secret
+lan-password.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test scratch dirs
+.test-secret-home/
+.settings-test-home*/
+.bundle-test-home/

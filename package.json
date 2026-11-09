@@ -1,0 +1,63 @@
+{
+  "name": "dsh-lan-webui",
+  "version": "1.1.1",
+  "description": "Serve the DeepSeek Harness desktop Web UI on a LAN address behind its own password authentication, with an in-app settings page. Binds one chosen interface (never 0.0.0.0).",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "setup.js",
+    "install.ps1",
+    "README.md",
+    "SECURITY.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "lan",
+    "tailscale",
+    "remote-access",
+    "authentication",
+    "web-ui"
+  ],
+  "homepage": "https://github.com/OWNER/dsh-lan-webui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/dsh-lan-webui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/dsh-lan-webui/issues"
+  },
+  "author": "dsh-lan-webui contributors",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node test/smoke_test.mjs && node test/official_sim.mjs",
+    "index:gen": "node scripts/gen-index.mjs"
+  },
+  "devDependencies": {
+    "@deepseek-ai/dsh-plugin-market-index": "0.2.1-alpha.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
